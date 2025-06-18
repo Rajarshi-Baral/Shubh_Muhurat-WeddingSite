@@ -57,6 +57,7 @@ The goal of this project is to provide users a platform to explore **wedding ser
 ## ✍️ Author
 
 😎 [Rajarshi Baral](https://www.instagram.com/rajarshi__baral/)    |    Aspiring Software Developer, Web Development & Machine Learning Enthusiast.
+
 📧 baralrajarshi35@gmail.com
 
 🔗 [LinkedIn](https://www.linkedin.com/in/rajarshi-baral-r350b01/) | [GitHub](https://github.com/Rajarshi-Baral)
