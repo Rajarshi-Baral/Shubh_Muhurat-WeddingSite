@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/wedding_ring_smpl.png">
+    <title>Subbh Muhurat</title>
+
+
+    <!-- Logo Linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inconsolata:wdth,wght@200,200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Satisfy&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tangerine:wght@400;700&family=The+Nautigal&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="preloader"></div>
+
+
+    <div class="sidebar">
+        <a href="https://www.facebook.com/profile.php?id=100084050178723" target="_blank">
+            <i class="fa-brands fa-facebook fa-beat" style="color: rgb(159, 5, 49);"></i>
+        </a>
+        <a href="https://www.instagram.com/silversand_event_management?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank">
+            <i class="fa-brands fa-instagram fa-beat" style="color: rgb(159, 5, 49);"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sanjay-chowdhary-9a5a3b23?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank">
+            <i class="fa-brands fa-linkedin-in fa-beat" style="color: rgb(159, 5, 49);"></i>
+        </a>
+        <a href="https://wa.me/919831177461" target="_blank">
+            <i class="fa-brands fa-whatsapp fa-beat" style="color: rgb(159, 5, 49);"></i>
+        </a>
+
+    </div>
+
+
+    <div class="side_top">
+        <a href="#">
+            <i class="fa-solid fa-chevron-up fa-beat fa-xl" style="color: rgb(159, 5, 49);"></i>
+        </a>
+    </div>
+
+
+    <div class="trnsltnArea">
+        <i class="fa-solid fa-globe" style="color: rgb(159, 5, 49);" id="translateToggleButton"></i>
+    </div>
+    <div id="google_translate_element" style="display: none;" aria-hidden="true" class="translate_Element"></div>
+
+
+
+    <div class="navBar-container">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="Images/wedding_ring_smpl.png" alt="Subbh Muhurat Logo">
+            </a>
+        </div>
+        <h2 class="nvbr_Hdng">shubh muhurat</h2>
+        <div class="hamburger" id="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="navBar" id="navbar">
+            <h2>welcome to shubh muhurat</h2>
+            <ul>
+                <li class="main_elmnt"><a href="#" id="homeButton" class="mainLink"><i class="fa-solid fa-house"
+                            style="color: white;"></i> Home</a></li>
+                <li class="main_elmnt"><a href="index.html#aboutUs" class="mainLink"><i class="fa-solid fa-people-roof"
+                            style="color: white;"></i>
+                        About Us</a></li>
+                <li class="dropdown main_elmnt">
+                    <a href="services.html" class="navBar_srvc mainLink"><i class="fa-regular fa-hand-point-up"
+                            style="color: white;"></i> Services <i class="fa-solid fa-angle-down"
+                            style="color: #ffffff;"></i></a>
+                    <ul class="submenu">
+                        <li><a href="services.html#wedding">Wedding Planning</a></li>
+                        <li><a href="services.html#decoration">Decoration</a></li>
+                        <li><a href="services.html#fd_ctrng">Catering</a></li>
+                        <li><a href="services.html#vnu_slctn">Venue Selection</a></li>
+                        <li><a href="services.html#mkup_mhendi">Makeup & Mehendi</a></li>
+                        <li><a href="services.html#entrtnmnt">Entertainment</a></li>
+                        <li><a href="services.html#trnsprt">Transportation</a></li>
+                        <li><a href="services.html#rgr">Registry</a></li>
+                        <li><a href="services.html#officiant">Officiant</a></li>
+                        <li><a href="services.html#hsptl">Hospitality</a></li>
+                        <li><a href="services.html#pht_vd">Photography & Videography</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown main_elmnt">
+                    <a href="gallery.html" class="navBar_srvc mainLink"><i class="fa-solid fa-photo-film"
+                            style="color: white;"></i> Gallery <i class="fa-solid fa-angle-down"
+                            style="color: #ffffff;"></i></a>
+                    <ul class="submenu">
+                        <li><a href="gallery.html">Indan Wedding</a></li>
+                        <li><a href="gallery.html">Islamic Wedding</a></li>
+                        <li><a href="gallery.html">Christian Wedding</a></li>
+                        <li><a href="gallery.html">Gllobal Wedding</a></li>
+                    </ul>
+                </li>
+                <li class="main_elmnt"><a href="index.html#tstmnl" class="mainLink"><i
+                            class="fa-regular fa-comment-dots" style="color: white;"></i> Testimonials</a></li>
+                <li class="main_elmnt"><a href="#cntctUs" class="mainLink"><i class="fa-solid fa-phone-volume"
+                            style="color: white;"></i>
+                        Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="Images/Content/content_bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- <h1 class="cntnt_heading">Wedding Planners</h1> -->
+    </div>
+    
+    <div class="aftr_cntnt"></div>
+
+    <div class="home_Images">
+        <div class="frst_rw">
+            <img src="Images/Home_image/1.jpg" alt="">
+            <img src="Images/Home_image/2.jpg" alt="">
+            <img src="Images/Home_image/3.jpg" alt="">
+            <img src="Images/Home_image/10.jpg" alt="">
+        </div>
+        <div class="scnd_rw">
+            <img src="Images/Home_image/4.jpg" alt="">
+            <img src="Images/Home_image/7.jpg" alt="">
+            <img src="Images/Home_image/5.jpg" alt="">
+            <img src="Images/Home_image/11.jpg" alt="">
+
+        </div>
+        <div class="thrd_rw">
+            <img src="Images/Home_image/6.jpg" alt="">
+            <img src="Images/Home_image/8.jpg" alt="">
+            <img src="Images/Home_image/9.jpg" alt="">
+            <img src="Images/Home_image/12.jpg" alt="">
+
+        </div>
+    </div>
+
+
+    <br id="aboutUs"><br>
+    <section class="about_us">
+        <img src="Images/about_Us2.jpg" alt="">
+        <div class="abtUs_cntnt">
+            <h2>About Shubh Muhurat</h2>
+            <div class="abtUs_txt">
+                <p>At Shubh Muhurat, we bring years of expertise and a dedicated approach to wedding planning, ensuring
+                    your big day is seamless and stress-free. Known for our calm and confident presence, our team
+                    specializes in personalized wedding planning services, handling every detail with precision and
+                    care.
+
+                <p> From designing an enchanting decor to coordinating your ceremony and reception, we focus on creating
+                    a flawless and unforgettable experience. We manage logistics, develop detailed itineraries,
+                    collaborate with vendors, and oversee behind-the-scenes details, so you can relax and enjoy every
+                    moment of your special day.</p>
+
+                <p> At Shubh Muhurat, we treat every wedding as if it were our own, ensuring the bride, groom, and their
+                    loved ones have an extraordinary celebration. We can't wait to work with you to craft the magical
+                    beginning of your forever!</p>
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="srvc_exmpl">
+        <h1>our services</h1>
+        <div class="srvc_1st slider">
+            <a href="services.html#vnu_slctn">
+                <dic class="area">
+                    <img src="Images/services_page/venue_selection.jpg" alt="">
+                    <div class="txt_ara">
+                        <h2>Venue Management</h2>
+                        <p>Shubh Muhurat finds your perfect wedding venue, handling logistics, negotiations, and
+                            seamless planning effortlessly.</p>
+                    </div>
+                </dic>
+            </a>
+            </a>
+            <a href="services.html#decoration">
+                <dic class="area">
+                    <img src="Images/services_page/decoration.jpg" alt="">
+
+                    <div class="txt_ara">
+                        <h2>Decoration</h2>
+                        <p>Shubh Muhurat crafts stunning wedding décor, blending tradition and trends for a magical, memorable celebration.</p>
+                    </div>
+                </dic>
+            </a>
+            <a href="services.html#fml_atr">
+                <dic class="area">
+                    <img src="Images/services_page/family_attire.jpg" alt="">
+
+                    <div class="txt_ara">
+                        <h2>Attire Management</h2>
+                        <p>Shubh Muhurat ensures coordinated, elegant family attire with expert styling, personalized designs, and seamless coordination.</p>
+                    </div>
+                </dic>
+            </a>
+            <a href="services.html#pfr_safa">
+                <dic class="area">
+                    <img src="Images/services_page/pagri_&_safa.jpg" alt="">
+
+                    <div class="txt_ara">
+                        <h2>Safa</h2>
+                        <p>Shubh Muhurat offers exquisite pagdi and safa, blending tradition, elegance, and cultural significance seamlessly.</p>
+                    </div>
+                </dic>
+            </a>
+            <a href="services.html#fd_ctrng">
+                <dic class="area">
+                    <img src="Images/services_page/food_&_cattering.jpg" alt="">
+
+                    <div class="txt_ara">
+                        <h2>Food & Catering</h2>
+                        <p>Shubh Muhurat offers customized catering with diverse cuisines, exceptional service, and memorable wedding feasts.</p>
+                    </div>
+                </dic>
+            </a>
+            <a href="services.html#pht_vd">
+                <dic class="area">
+                    <img src="Images/services_page/pht_&_video.jpg" alt="">
+
+                    <div class="txt_ara">
+                        <h2>Photography & Videography</h2>
+                        <p>Shubh Muhurat offers expert photography and videography, capturing your wedding’s beauty and memories.</p>
+                    </div>
+                </dic>
+            </a>
+            <a href="services.html#mkup_mhendi">
+                <dic class="area">
+                    <img src="Images/services_page/mehendi.jpg" alt="">
+
+                    <div class="txt_ara">
+                        <h2>makeup & mehendi</h2>
+                        <p>Shubh Muhurat offers expert mehendi and makeup services, enhancing your bridal beauty with precision and style.</p>
+                    </div>
+                </dic>
+            </a>
+            <a href="services.html#entrtnmnt">
+                <dic class="area">
+                    <img src="Images/services_page/entertainment.jpg" alt="">
+
+                    <div class="txt_ara">
+                        <h2>entertainments</h2>
+                        <p>Shubh Muhurat offers diverse entertainment, including live performances, DJs, and activities, ensuring a lively wedding atmosphere.</p>
+                    </div>
+                </dic>
+            </a>
+            <a href="services.html#hsptl">
+                <dic class="area">
+                    <img src="Images/services_page/hospitality.jpg" alt="">
+
+                    <div class="txt_ara">
+                        <h2>Hospitality & logistics</h2>
+                        <p>Shubh Muhurat provides exceptional hospitality, ensuring guest comfort with personalized attention, travel, and on-site support.</p>
+                    </div>
+                </dic>
+            </a>
+            <a href="services.html#officiant">
+                <dic class="area">
+                    <img src="Images/services_page/officiant.jpg" alt="">
+
+                    <div class="txt_ara">
+                        <h2>Officiant services</h2>
+                        <p>Shubh Muhurat’s experienced officiants deliver personalized, heartfelt ceremonies, honoring traditions and creating meaningful moments.</p>
+                    </div>
+                </dic>
+            </a>
+            <a href="services.html#trousseau">
+                <dic class="area">
+                    <img src="Images/services_page/trousseau.jpg" alt="">
+
+                    <div class="txt_ara">
+                        <h2>trousseau Management</h2>
+                        <p>Shubh Muhurat offers expert trousseau curation, helping you select clothing, jewelry, and accessories with elegance and care.</p>
+                    </div>
+                </dic>
+            </a>
+        </div>
+    </div>
+    <div class="before_tstmnls">
+
+    </div>
+    <br id="tstmnl"><br><br><br>
+    <section class="testimonials">
+        <h2>our happy clients</h2>
+        <div class="frst_client">
+            <div class="review_Box">
+                <div class="card">
+                    <div class="profile">
+                        <!-- <img src="Images/Testimonials/smpl.jpg"> -->
+                        <div class="prfl_desc">
+                            <h3>ayush & vidya</h3>
+                        </div>
+                    </div>
+                    <p class="description">Our wedding was an absolute dream, thanks to this amazing team! From start to finish, they took care of every detail, allowing us to enjoy our big day stress-free. The decor, coordination, and execution were flawless. Highly recommended!</p>
+                </div>
+            </div>
+            <img src="Images/Testimonials/Clnt/clnt_1.jpg" alt="">
+        </div>
+
+        <div class="scnd_client">
+            <div class="review_Box">
+                <div class="card">
+                    <div class="profile">
+                        <!-- <img src="Images/Testimonials/smpl.jpg"> -->
+                        <div class="prfl_desc">
+                            <h3>Suresh & abhilasha</h3>
+                        </div>
+                    </div>
+                    <p class="description">We wanted a wedding that beautifully blended both of our cultures, and this team made it happen effortlessly. They understood our vision, respected traditions, and created a magical experience for us and our guests. Truly the best decision we made!</p>
+                </div>
+            </div>
+            <img src="Images/Testimonials/Clnt/clnt_2.jpg" alt="">
+        </div>
+
+        <div class="frst_client">
+            <div class="review_Box">
+                <div class="card">
+                    <div class="profile">
+                        <!-- <img src="Images/Testimonials/smpl.jpg"> -->
+                        <div class="prfl_desc">
+                            <h3>siddharth & malvika</h3>
+                        </div>
+                    </div>
+                    <p class="description">We couldn’t have asked for a better wedding planner! Every detail was handled with perfection, and the team was always available to answer our questions. They made our dream wedding a reality beyond our expectations!</p>
+                </div>
+            </div>
+            <img src="Images/Testimonials/Clnt/clnt_3.jpg" alt="">
+        </div>
+
+        <div class="scnd_client">
+            <div class="review_Box">
+                <div class="card">
+                    <div class="profile">
+                        <!-- <img src="Images/Testimonials/smpl.jpg"> -->
+                        <div class="prfl_desc">
+                            <h3>adarsh & aditi</h3>
+                        </div>
+                    </div>
+                    <p class="description">Planning a destination wedding felt overwhelming until we found this team. They managed everything seamlessly, from venue selection to guest arrangements. Our wedding felt like a fairytale, and we are forever grateful!</p>
+                </div>
+            </div>
+            <img src="Images/Testimonials/Clnt/clnt_4.jpg" alt="">
+        </div>
+        <br><br><br>
+    </section>
+
+    <div class="aftr_tstmnls">
+    </div>
+    <div class="home_Images">
+
+        <div class="scnd_rw">
+            <img src="Images/Home_image/13.jpg" alt="">
+            <img src="Images/Home_image/14.jpg" alt="">
+            <img src="Images/Home_image/15.jpg" alt="">
+            <img src="Images/Home_image/16.jpg" alt="">
+
+        </div>
+        <div class="thrd_rw">
+            <img src="Images/Home_image/17.jpg" alt="">
+            <img src="Images/Home_image/18.jpg" alt="">
+            <img src="Images/Home_image/19.jpg" alt="">
+            <img src="Images/Home_image/20.jpg" alt="">
+
+        </div>
+    </div>
+
+
+    <br id="cntctUs"><br><br><br>
+    <section class="contact_us" id="cntctUs">
+        <h2>Contact Shubh Muhurat</h2>
+        <div class="cntct_us_cntnt">
+            <div class="adrs">
+                <i class="fa-solid fa-location-dot fa-bounce" style="color: rgb(159, 5, 49);"></i>
+                <p>
+                    <!-- <i class="fas fa-map-marker-alt"></i> -->
+                    <a href="https://www.google.com/maps/place/Theevent9/@22.5082649,88.3826566,17z/data=!3m1!4b1!4m6!3m5!1s0x3a0276cc5e25b007:0xa30a476795bbe5d4!8m2!3d22.5082649!4d88.3852315!16s%2Fg%2F1thzm9gc?authuser=0&entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank">82 Sucheta Nagar, Kiran Apartment, 4th Floor, Flat C, Haltu, Kolkata, West
+                        Bengal
+                        700078</a>
+                </p>
+            </div>
+            <div class="cnct_dtls">
+                <i class="fa-regular fa-address-book" style="color: rgb(159, 5, 49);"></i>
+                <p><i class="fas fa-phone-alt"></i> +91 6290097523 / 033-24055054</p>
+                <p><i class="fas fa-envelope"></i> For Enquiry: <a
+                        href="mailto:team.shubhmuhurat@gmail.com">team.shubhmuhurat@gmail.com</a>
+            </div>
+        </div>
+        <buttn class="cntctButton">Send Us a Message</buttn>
+        <div class="cntct_us_icons">
+            <a href="https://www.facebook.com/profile.php?id=100084050178723" target="_blank">
+                <i class="fa-brands fa-facebook" style="color: rgb(159, 5, 49);"></i>
+            </a>
+            <a href="https://www.instagram.com/silversand_event_management?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank">
+                <i class="fa-brands fa-instagram" style="color: rgb(159, 5, 49);"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sanjay-chowdhary-9a5a3b23?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank">
+                <i class="fa-brands fa-linkedin-in" style="color: rgb(159, 5, 49);"></i>
+            </a>
+            <a href="https://wa.me/919831177461" target="_blank">
+                <i class="fa-brands fa-whatsapp" style="color: rgb(159, 5, 49);"></i>
+            </a>
+        </div>
+    </section>
+    <!-- <div class="cntct_page">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="container_Button">Submit</button>
+            </form>
+        </div>
+    </div> -->
+    <div class="before_footer">
+        <!-- <img src="Images/Home_image/before_footer.jpg" alt=""> -->
+    </div>
+
+
+    <footer>
+        <div class="ftr_frst">
+            <img src="Images/wedding_ring_smpl.png" alt="">
+            <h1 class="ftr_h1">Shubh Muhurat - a Wedding Management co.</h1>
+        </div>
+
+        <div class="top">
+            <i class="fa-solid fa-chevron-up fa-beat fa-xl" style="color: #ffffff;"></i>
+            <h2>back to top</h2>
+        </div>
+        <div class="reserve">
+            <p>Copyright &copy; 2025 - <a href="index.html">Shubh Muhurat.com </a> All rights reserved.</p>
+            <p>Website Design & Developed by <a href="https://www.linkedin.com/in/rajarshi-baral-r350b01/"
+                    target="_blank">Rajarshi Baral.</a></p>
+        </div>
+    </footer>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="js_files/script.js"></script>
+</body>
+
+</html>
