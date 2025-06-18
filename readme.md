@@ -50,6 +50,10 @@ The goal of this project is to provide users a platform to explore **wedding ser
    ✅ No need for any server or installation — it's fully static and ready to use! 
 
 
+
+
+
+
 ## ✍️ Author
 
 😎 [Rajarshi Baral](https://www.instagram.com/rajarshi__baral/)    |    Aspiring Software Developer, Web Development & Machine Learning Enthusiast.
@@ -60,7 +64,7 @@ The goal of this project is to provide users a platform to explore **wedding ser
 
 
 
-🔮 Future Plans
+## 🔮 Future Plans
 ✅ Host the site using GitHub Pages, Vercel, or Netlify
 ✅ Add contact form functionality using Formspree or EmailJS
 ✅ Enhance gallery with Lightbox and filtering
@@ -69,5 +73,5 @@ The goal of this project is to provide users a platform to explore **wedding ser
 
 
 
-🛡️ Disclaimer
+## 🛡️ Disclaimer
 This project is for portfolio and demonstration purposes only. The content and assets are meant for showcasing web development skills and not intended for commercial use.
