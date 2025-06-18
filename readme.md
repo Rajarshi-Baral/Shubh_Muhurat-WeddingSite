@@ -65,10 +65,15 @@ The goal of this project is to provide users a platform to explore **wedding ser
 
 
 ## 🔮 Future Plans
+
 ✅ Host the site using GitHub Pages, Vercel, or Netlify
+
 ✅ Add contact form functionality using Formspree or EmailJS
+
 ✅ Enhance gallery with Lightbox and filtering
+
 ✅ Add animations using GSAP or ScrollReveal
+
 ✅ Add admin section for event bookings (Future scope)
 
 
