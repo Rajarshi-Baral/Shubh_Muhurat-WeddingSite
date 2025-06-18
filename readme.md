@@ -47,14 +47,15 @@ The goal of this project is to provide users a platform to explore **wedding ser
 
 3. Open index.html in any browser to explore the full website locally.
 
-        ✅ No need for any server or installation — it's fully static and ready to use! 
+   ✅ No need for any server or installation — it's fully static and ready to use! 
 
 
-✍️ Author
-Rajarshi Baral
-🎓 Aspiring Software Developer & Web Design Enthusiast
-📧 Email: baralrajarshi35@gmail.com
-🔗 LinkedIn | GitHub | Instagram  
+## ✍️ Author
+
+😎 [Rajarshi Baral](https://www.instagram.com/rajarshi__baral/)    |    Aspiring Software Developer, Web Development & Machine Learning Enthusiast.
+📧 baralrajarshi35@gmail.com
+
+🔗 [LinkedIn](https://www.linkedin.com/in/rajarshi-baral-r350b01/) | [GitHub](https://github.com/Rajarshi-Baral)
 
 
 
